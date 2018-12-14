@@ -15,7 +15,8 @@ deploy:
     secret_access_key:
         secure: FxhbXeI1mxlBvhRJDeGHi12cr4RQV+XQzjj5JVXVT4CjEjk33RTT7nmzC9iKmSFtFDNc3zSggDO8n7xCa6Hn4biA/VEbe931HetnX40Y6S9Q/E5N8T8JtZb0bicW7msZH5g9BNA1pVUZHavmIMMmfB56cs3aZSTs5GnCyD1ZM1JCbRAxlI2EQfAuS+EhQIuyWH+ldE1v85WblQ5+avq0K3DZIcqKynyCMbl2pyCa6sk9zL3GQo/EiklhXPalskzc+h85RbvAGaP7kBZtM/1uje2jKSHtqvpnbmu8AsqWAPTXSCOEOSuAr2tlFnTCqyU0tAHxbebzhNe18jHdkxTfcnbNBsMOokWzPvicnOzZNe5Gmvbdtl2IA/uPWRz+JR6qdARK1lG7jO9UWrjyO7RBs4yN0DTaRJKUufXTP8hccjkE2t4qMxf/eF990AihBQievm82am7da3XKyvrGzL5F3J6L0wPMHKiqiBeVLXHBhKmLguboDAkUyE0oESTQEZCdBENbEpHjvSHGhklG5Zyg1dPpC4Bz0IR8laUGr11h+8i8xYnKLDaO5BSZObtUrVCI2bTwjy1LYzx945Owla5pnAVVjoRdXVzGh7QznXmF4giSWoe5yTaDZL49ZnlSJOWWDNEOfBahmanVGCLvcg5QME0rXmOuMSZx65zmKiEuvvM=
     bucket: barteq-react-app-test
+    region: eu-central-1
     local-dir: build
-    acl: public_read
     on:
         repo: barteq93/react-app-test
+    skip_cleanup: true
